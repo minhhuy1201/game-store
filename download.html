@@ -1,122 +1,179 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!------------- TITLE --------------->
-    <title>NETGames</title>
 
-    <!------------- FAVICON  ------------->
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!------------- TITLE --------------->
+  <title>NETGame</title>
 
-    <!------------- BOX ICON ------------->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+  <!------------- FAVICON  ------------->
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
 
-    <!------------- RESET CSS ------------->
-    <link rel="stylesheet" href="./style/reset.css" />
+  <!------------- BOX ICON ------------->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-    <!------------- STYLE --------------->
-    <link rel="stylesheet" href="./style/style.css" />
-    <!-- SWIPER -->
-    <link rel="stylesheet" href="./style/swiper-bundle.min.css" />
-  </head>
+  <!------------- RESET CSS ------------->
+  <link rel="stylesheet" href="./style/reset.css" />
 
-  <body>
-    <!-------------start HEADER --------------->
-    <header>
-      <nav class="nav container">
-        <!-- LOGO -->
-        <a href="index.html" class="logo">NET<span>Games</span></a>
+  <!------------- STYLE --------------->
+  <link rel="stylesheet" href="./style/main.css" />
+  <link rel="stylesheet" href="./style/downloadPage.css" />
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="./style/swiper-bundle.min.css" />
+</head>
 
-        <!-- NAV ICON -->
-        <div class="nav-icon">
-          <i class="bx bx-bell bx-tada" id="bell-icon"><span></span></i>
-          <i class="bx bxs-download"></i>
-          <div class="menu-icon">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+<body>
+  <!-------------start HEADER --------------->
+  <header>
+    <nav class="nav container">
+      <!-- LOGO -->
+      <a href="index.html" class="logo">NET<span>Game</span></a>
+
+      <!-- NAV ICON -->
+      <div class="nav-icon">
+        <i class="bx bx-bell bx-tada" id="bell-icon"><span></span></i>
+        <i class="bx bxs-download"></i>
+        <div class="menu-icon">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+
+      <!-- MENU -->
+      <div class="menu">
+        <img src="./img/menu.png" alt="" />
+
+        <ul class="navbar">
+          <li><a href="#!">Home</a></li>
+          <li><a href="#home">Trending</a></li>
+          <li><a href="#new">New Games</a></li>
+          <li><a href="#action">Action Games</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="noti">
+        <div class="noti_box">
+          <i class="bx bxs-check-circle"></i>
+          <p>Chuc mung, ban da tai game thanh cong</p>
+        </div>
+        <div class="noti_box noti_box--color">
+          <i class="bx bxs-x-circle"></i>
+          <p>Khong the thay doi</p>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-------------end HEADER --------------->
+
+  <!-------------start VIDEO TRAILER --------------->
+  <div class="video-container container">
+    <video src="./download-files/Subway Surfers Official.mp4" muted autoplay></video>
+  </div>
+  <!-------------end VIDEO TRAILER --------------->
+
+
+  <!-------------start ABOUT --------------->
+  <div class="about container">
+    <h2>About Game</h2>
+    <p>
+      Incididunt reprehenderit ad nisi nostrud fugiat excepteur aute mollit.
+      Reprehenderit sunt veniam cillum magna cillum sunt. Proident minim
+      aliqua cillum nostrud consequat irure consequat nulla aute qui
+      incididunt nulla reprehenderit sint proident. Aliquip quis eu et nisi
+      tempor Lorem ipsum voluptate irure exercitation aute velit adipisicing
+      excepteur. Consequat tempor culpa cillum et.
+    </p>
+  </div>
+  <!-------------end ABOUT --------------->
+
+  <!-------------start SCREENSHOT --------------->
+  <div class="screenshots container">
+    <h2>ScreenShots</h2>
+    <div class="screenshots-content">
+      <img src="img/screenshots1.jpg" alt="">
+      <img src="img/screenshots2.jpg" alt="">
+      <img src="img/screenshots3.jpg" alt="">
+    </div>
+  </div>
+  <!-------------end SCREENSHOT --------------->
+
+  <!-------------start DOWNLOAD LINK --------------->
+  <div class="download">
+    <a download="deTenGameVaoDay" href="deLinkDownloadGameVao" class="download-links">Download Link (Windows ONLY)</a>
+  </div>
+  <!-------------end DOWNLOAD LINK --------------->
+
+  <!-------------start FOOOTER --------------->
+  <footer class="footer container">
+    <div class="footer_box">
+      <div class="footer_box_item">
+        <h3 class="item_title">NET<span>Game</span></h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, libero ab dolore, doloribus ipsa nihil
+          quaerat unde et accusantium ullam adipisci beatae sequi tempore cupiditate!</p>
+
+        <div class="contact">
+          <div class="contact-box">
+            <i class='bx bx-map'></i>
+            <a href="https://maps.app.goo.gl/zVpeZQRVPwacvRF58">Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Thành phố Hồ Chí
+              Minh, Việt Nam</a>
+          </div>
+
+          <div class="contact-box">
+            <i class='bx bx-phone'></i>
+            <a href="tel:+0123456789">0123456789</a>
+          </div>
+
+          <div class="contact-box">
+            <i class='bx bx-envelope'></i>
+            <a href="mailto:netgame@mail.com">netgame@mail.com</a>
           </div>
         </div>
+      </div>
 
-        <!-- MENU -->
-        <div class="menu">
-          <img src="./img/menu.png" alt="" />
+      <div class="footer_box_item">
+        <h3>về chúng tôi</h3>
+        <ul>
+          <li><a href="#!">trang chủ</a></li>
+          <li><a href="#!">giới thiệu</a></li>
+          <li><a href="#!">danh mục game đã mua</a></li>
+          <li><a href="#!">liên hệ</a></li>
+        </ul>
+      </div>
 
-          <ul class="navbar">
-            <li><a href="#!">Home</a></li>
-            <li><a href="#home">Trending</a></li>
-            <li><a href="#new">New Games</a></li>
-            <li><a href="#action">Action Games</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+      <div class="footer_box_item">
+        <h3>chăm sóc khách hàng</h3>
+        <ul>
+          <li><a href="#!">trang chủ</a></li>
+          <li><a href="#!">giới thiệu</a></li>
+          <li><a href="#!">danh mục game đã mua</a></li>
+          <li><a href="#!">liên hệ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer_box_item">
+        <h3>theo dõi chúng tôi trên</h3>
+        <div class="contact-icon">
+          <i class='bx bxl-facebook-circle'></i>
+          <i class='bx bxl-instagram'></i>
+          <i class='bx bxl-youtube'></i>
         </div>
-
-        <div class="noti">
-          <div class="noti_box">
-            <i class="bx bxs-check-circle"></i>
-            <p>Chuc mung, ban da tai game thanh cong</p>
-          </div>
-          <div class="noti_box noti_box--color">
-            <i class="bx bxs-x-circle"></i>
-            <p>Khong the thay doi</p>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-------------end HEADER --------------->
-
-    <div class="video-container container">
-      <video
-        src="/download-files/Subway Surfers Official.mp4"
-        muted
-        autoplay
-      ></video>
+      </div>
     </div>
 
-    <div class="copyright container">
-      <a href="#" class="logo">Game <span>Store</span></a>
-      <p>&#169; VAILON All Right Reserved</p>
+    <!-- COPYRIGHT -->
+    <div class="footer_copyright">
+      <p>&#169; 2023 NETGame. Tất cả các quyền được bảo lưu.</p>
     </div>
-    <!-- ABOUT -->
-    <div class="about container">
-      <h2>About Game</h2>
-      <p>
-        Incididunt reprehenderit ad nisi nostrud fugiat excepteur aute mollit.
-        Reprehenderit sunt veniam cillum magna cillum sunt. Proident minim
-        aliqua cillum nostrud consequat irure consequat nulla aute qui
-        incididunt nulla reprehenderit sint proident. Aliquip quis eu et nisi
-        tempor Lorem ipsum voluptate irure exercitation aute velit adipisicing
-        excepteur. Consequat tempor culpa cillum et.
-      </p>
-    </div>
-    <div class="screenshots container">
-        <h2>ScreenShots</h2>
-        <div class="screenshots-content">
-            <img src="img/screenshots1.jpg" alt="">
-            <img src="img/screenshots2.jpg" alt="">
-            <img src="img/screenshots3.jpg" alt="">
-        </div>
-    </div>
-    <div class="download">
-        <h2>Download Links</h2>
-        <div class="download-links">
-            <a href="download-files/Subway Surface.apk" download="">For Android</a>
-            <a href="">For IOS</a>
-            <a href="">For Windows</a>
-        </div>
-    </div>
-    <!-------------start HEADER --------------->
-    <!-------------start HEADER --------------->
-    <!-------------start HEADER --------------->
-    <!-------------start HEADER --------------->
-    <!-------------start HEADER --------------->
+  </footer>
+  <!-------------end FOOTER --------------->
 
-    <!------------- SCRIPT --------------->
-    <script src="./js/swiper-bundle.min.js"></script>
-    <script src="./js/main.js"></script>
-  </body>
+
+  <!------------- SCRIPT --------------->
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
 </html>
